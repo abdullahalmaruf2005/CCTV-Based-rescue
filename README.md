@@ -1,4 +1,4 @@
-# AI Fire & Smoke Detection System 🔥
+# AI Fire,Smoke and Accident Detection System 🔥
 
 ## Features
 - Real-time fire & smoke detection using YOLOv8
