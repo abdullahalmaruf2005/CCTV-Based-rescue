@@ -39,3 +39,9 @@ export default function App() {
           FIRE / SMOKE DETECTED!
         </div>
       )}
+       <div className="mt-6">
+        <img src="http://localhost:5000/video_feed" className="rounded-lg border" />
+      </div>
+    </div>
+  );
+}
