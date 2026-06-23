@@ -1,0 +1,10 @@
+flask
+flask-cors
+opencv-python
+ultralytics
+numpy
+pygame
+torch
+torchvision
+torchaudio
+requests
