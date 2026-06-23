@@ -22,3 +22,6 @@ export default function App() {
         setFire(res.data.fire);
       }, 1000);
     };
+    return (
+    <div className="bg-black min-h-screen text-white p-6">
+      <h1 className="text-3xl font-bold text-red-500">Fire & Smoke Detection</h1>
