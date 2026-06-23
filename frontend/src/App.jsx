@@ -10,3 +10,15 @@ export default function App() {
     setRunning(true);
     checkStatus();
   };
+
+  const stopCamera = async () => {
+      await axios.get("http://localhost:5000/stop_camera");
+      setRunning(false);
+    };
+  
+    const checkStatus = () => {
+      setInterval(async () => {
+        const res = await axios.get("http://localhost:5000/status");
+        setFire(res.data.fire);
+      }, 1000);
+    };
