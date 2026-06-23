@@ -34,3 +34,8 @@ export default function App() {
           Stop Camera
         </button>
       </div>
+      {fire && (
+        <div className="mt-4 bg-red-700 p-4 text-xl animate-pulse">
+          FIRE / SMOKE DETECTED!
+        </div>
+      )}
