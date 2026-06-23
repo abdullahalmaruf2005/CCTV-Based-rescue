@@ -25,3 +25,8 @@ export default function App() {
     return (
     <div className="bg-black min-h-screen text-white p-6">
       <h1 className="text-3xl font-bold text-red-500">Fire & Smoke Detection</h1>
+
+      <div className="mt-6 flex gap-4">
+        <button onClick={startCamera} className="bg-green-600 px-4 py-2 rounded">
+          Start Camera
+        </button>
