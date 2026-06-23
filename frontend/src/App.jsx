@@ -30,3 +30,7 @@ export default function App() {
         <button onClick={startCamera} className="bg-green-600 px-4 py-2 rounded">
           Start Camera
         </button>
+         <button onClick={stopCamera} className="bg-red-600 px-4 py-2 rounded">
+          Stop Camera
+        </button>
+      </div>
